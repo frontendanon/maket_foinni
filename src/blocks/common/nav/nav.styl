@@ -1,0 +1,53 @@
+.nav
+  background-color rgba(0,0,0,.75)
+  
+  border-bottom 1px solid rgba(143,142,145,.5)
+  
+  padding 30px 0
+  
+  position fixed
+  top 0
+  
+  width 100%
+  
+  .center-wrapper
+    display flex
+    align-items center
+    align-content space-between
+    
+    max-width 1044px
+    margin 0 auto
+  
+  &__logo
+    flex-grow 1
+    
+    h1
+      color color-link
+      font-size 40px
+      font-family font-light
+    span 
+      color color-green
+      font-family 'PacificoRegular'
+      
+      text-transform uppercase
+    
+  &__menu
+    display flex
+    flex-grow 0
+    
+  &__item
+    margin-left 40px
+    
+    a 
+      font-size 14px
+      font-family font-light
+      
+      padding 10px 0
+      
+      text-transform uppercase
+      
+      &:hover
+        color color-green
+        
+        border-bottom 1px solid color-green
+      
